@@ -1,0 +1,403 @@
+I, [2013-12-09T02:52:30.492990 #29636]  INFO -- : Migrating to CreateUsers (20131202062124)
+E, [2013-12-09T02:52:30.617519 #29636] ERROR -- : Connection refused - connect(2)
+I, [2013-12-09T02:52:30.619222 #29636]  INFO -- : Migrating to CreateResults (20131204034931)
+E, [2013-12-09T02:52:30.759584 #29636] ERROR -- : Connection refused - connect(2)
+I, [2013-12-09T02:52:30.761200 #29636]  INFO -- : Migrating to CreateGuesses (20131204054438)
+E, [2013-12-09T02:52:30.881497 #29636] ERROR -- : Connection refused - connect(2)
+I, [2013-12-09T02:52:30.883211 #29636]  INFO -- : Migrating to CreateSolutions (20131206040324)
+E, [2013-12-09T02:52:31.028295 #29636] ERROR -- : Connection refused - connect(2)
+I, [2013-12-09T03:20:34.192489 #25713]  INFO -- : Started GET "/rijeci_backend/guesses/" for 46.36.161.64 at 2013-12-09 03:20:34 +0000
+I, [2013-12-09T03:20:34.204386 #25713]  INFO -- : Processing by GuessesController#index as HTML
+I, [2013-12-09T03:20:34.219324 #25713]  INFO -- :   Rendered guesses/index.html.erb within layouts/application (2.2ms)
+I, [2013-12-09T03:20:34.221113 #25713]  INFO -- : Completed 200 OK in 17ms (Views: 4.6ms | ActiveRecord: 0.3ms)
+I, [2013-12-09T03:20:34.408428 #25732]  INFO -- : Started GET "/rijeci_backend/javascripts/application.js" for 46.36.161.64 at 2013-12-09 03:20:34 +0000
+F, [2013-12-09T03:20:34.417631 #25732] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  passenger (4.0.27) lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:140:in `accept_and_process_next_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:108:in `main_loop'
+  passenger (4.0.27) lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+
+
+I, [2013-12-09T03:20:44.204372 #25790]  INFO -- : Started GET "/rijeci_backend/solutions" for 46.36.161.64 at 2013-12-09 03:20:44 +0000
+I, [2013-12-09T03:20:44.215965 #25790]  INFO -- : Processing by SolutionsController#index as HTML
+I, [2013-12-09T03:20:44.231800 #25790]  INFO -- :   Rendered solutions/index.html.erb within layouts/application (2.5ms)
+I, [2013-12-09T03:20:44.233604 #25790]  INFO -- : Completed 200 OK in 18ms (Views: 5.0ms | ActiveRecord: 0.3ms)
+I, [2013-12-09T03:20:44.394625 #25815]  INFO -- : Started GET "/rijeci_backend/javascripts/application.js" for 46.36.161.64 at 2013-12-09 03:20:44 +0000
+F, [2013-12-09T03:20:44.410704 #25815] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  passenger (4.0.27) lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:140:in `accept_and_process_next_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:108:in `main_loop'
+  passenger (4.0.27) lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+
+
+I, [2013-12-09T03:23:48.891879 #25831]  INFO -- : Started POST "/rijeci_backend/guesses.json" for 46.36.161.64 at 2013-12-09 03:23:48 +0000
+I, [2013-12-09T03:23:48.901529 #25831]  INFO -- : Processing by GuessesController#create as JSON
+I, [2013-12-09T03:23:48.901594 #25831]  INFO -- :   Parameters: {"username"=>"ahis", "definition"=>" zagonetno."}
+I, [2013-12-09T03:23:49.211366 #25831]  INFO -- :   Rendered guesses/show.json.jbuilder (28.0ms)
+I, [2013-12-09T03:23:49.211847 #25831]  INFO -- : Completed 500 Internal Server Error in 310ms
+F, [2013-12-09T03:23:49.214266 #25831] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `guess' for #<#<Class:0x00000003d3f5d8>:0x00000003d3e9f8>):
+    1: json.extract! guess, :username, :definition
+  app/views/guesses/show.json.jbuilder:1:in `_app_views_guesses_show_json_jbuilder__503967911290946818_32156880'
+  app/controllers/guesses_controller.rb:23:in `block (2 levels) in create'
+  app/controllers/guesses_controller.rb:21:in `create'
+
+
+I, [2013-12-09T03:23:52.892576 #26138]  INFO -- : Started GET "/rijeci_backend/guesses" for 46.36.161.64 at 2013-12-09 03:23:52 +0000
+I, [2013-12-09T03:23:52.909097 #26138]  INFO -- : Processing by GuessesController#index as HTML
+I, [2013-12-09T03:23:52.934226 #26138]  INFO -- :   Rendered guesses/index.html.erb within layouts/application (12.1ms)
+I, [2013-12-09T03:23:52.935851 #26138]  INFO -- : Completed 200 OK in 27ms (Views: 14.0ms | ActiveRecord: 0.6ms)
+I, [2013-12-09T03:23:53.110456 #26149]  INFO -- : Started GET "/rijeci_backend/stylesheets/application.css" for 46.36.161.64 at 2013-12-09 03:23:53 +0000
+F, [2013-12-09T03:23:53.129099 #26149] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  passenger (4.0.27) lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:140:in `accept_and_process_next_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:108:in `main_loop'
+  passenger (4.0.27) lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+
+
+I, [2013-12-09T03:24:05.028602 #26189]  INFO -- : Started GET "/rijeci_backend/users?username=ahis" for 46.36.161.64 at 2013-12-09 03:24:05 +0000
+I, [2013-12-09T03:24:05.049900 #26189]  INFO -- : Processing by UsersController#index as HTML
+I, [2013-12-09T03:24:05.050017 #26189]  INFO -- :   Parameters: {"username"=>"ahis"}
+I, [2013-12-09T03:24:05.075008 #26189]  INFO -- :   Rendered users/index.html.erb within layouts/application (10.9ms)
+I, [2013-12-09T03:24:05.076657 #26189]  INFO -- : Completed 200 OK in 26ms (Views: 12.7ms | ActiveRecord: 0.8ms)
+I, [2013-12-09T03:24:05.285564 #26203]  INFO -- : Started GET "/rijeci_backend/javascripts/application.js" for 46.36.161.64 at 2013-12-09 03:24:05 +0000
+F, [2013-12-09T03:24:05.295735 #26203] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  passenger (4.0.27) lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:140:in `accept_and_process_next_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:108:in `main_loop'
+  passenger (4.0.27) lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+
+
+I, [2013-12-09T03:24:10.866344 #26236]  INFO -- : Started GET "/rijeci_backend/users?username=ahis" for 46.36.161.64 at 2013-12-09 03:24:10 +0000
+I, [2013-12-09T03:24:10.877375 #26236]  INFO -- : Processing by UsersController#index as HTML
+I, [2013-12-09T03:24:10.877440 #26236]  INFO -- :   Parameters: {"username"=>"ahis"}
+I, [2013-12-09T03:24:10.901616 #26236]  INFO -- :   Rendered users/index.html.erb within layouts/application (10.9ms)
+I, [2013-12-09T03:24:10.903228 #26236]  INFO -- : Completed 200 OK in 26ms (Views: 12.6ms | ActiveRecord: 0.8ms)
+I, [2013-12-09T03:24:11.078761 #26246]  INFO -- : Started GET "/rijeci_backend/javascripts/application.js" for 46.36.161.64 at 2013-12-09 03:24:11 +0000
+F, [2013-12-09T03:24:11.090563 #26246] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  passenger (4.0.27) lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:140:in `accept_and_process_next_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:108:in `main_loop'
+  passenger (4.0.27) lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+
+
+I, [2013-12-09T03:28:34.688974 #26258]  INFO -- : Started GET "/rijeci_backend/guesses" for 46.36.161.64 at 2013-12-09 03:28:34 +0000
+I, [2013-12-09T03:28:34.706593 #26258]  INFO -- : Processing by GuessesController#index as HTML
+I, [2013-12-09T03:28:34.729304 #26258]  INFO -- :   Rendered guesses/index.html.erb within layouts/application (9.7ms)
+I, [2013-12-09T03:28:34.730895 #26258]  INFO -- : Completed 200 OK in 24ms (Views: 11.7ms | ActiveRecord: 0.6ms)
+I, [2013-12-09T03:28:34.998784 #26701]  INFO -- : Started GET "/rijeci_backend/javascripts/application.js" for 46.36.161.64 at 2013-12-09 03:28:34 +0000
+F, [2013-12-09T03:28:35.014837 #26701] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  passenger (4.0.27) lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:140:in `accept_and_process_next_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:108:in `main_loop'
+  passenger (4.0.27) lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+
+
+I, [2013-12-09T04:18:04.249872 #26713]  INFO -- : Started GET "/rijeci_backend/solutions" for 46.36.161.64 at 2013-12-09 04:18:04 +0000
+I, [2013-12-09T04:18:04.268548 #26713]  INFO -- : Processing by SolutionsController#index as HTML
+I, [2013-12-09T04:18:04.284529 #26713]  INFO -- :   Rendered solutions/index.html.erb within layouts/application (2.0ms)
+I, [2013-12-09T04:18:04.286086 #26713]  INFO -- : Completed 200 OK in 17ms (Views: 4.1ms | ActiveRecord: 0.3ms)
+I, [2013-12-09T04:18:23.354708 #990]  INFO -- : Started GET "/rijeci_backend/javascripts/application.js" for 46.36.161.64 at 2013-12-09 04:18:23 +0000
+F, [2013-12-09T04:18:23.366814 #990] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  passenger (4.0.27) lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:140:in `accept_and_process_next_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:108:in `main_loop'
+  passenger (4.0.27) lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+
+
+I, [2013-12-09T04:19:24.248126 #1015]  INFO -- : Started GET "/rijeci_backend/guesses" for 46.36.161.64 at 2013-12-09 04:19:24 +0000
+I, [2013-12-09T04:19:24.265972 #1015]  INFO -- : Processing by GuessesController#index as HTML
+I, [2013-12-09T04:19:24.288216 #1015]  INFO -- :   Rendered guesses/index.html.erb within layouts/application (9.4ms)
+I, [2013-12-09T04:19:24.289799 #1015]  INFO -- : Completed 200 OK in 24ms (Views: 11.3ms | ActiveRecord: 0.6ms)
+I, [2013-12-09T04:19:24.454529 #1131]  INFO -- : Started GET "/rijeci_backend/javascripts/application.js" for 46.36.161.64 at 2013-12-09 04:19:24 +0000
+F, [2013-12-09T04:19:24.469264 #1131] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  passenger (4.0.27) lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:140:in `accept_and_process_next_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:108:in `main_loop'
+  passenger (4.0.27) lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+
+
+I, [2013-12-09T04:19:34.898480 #1153]  INFO -- : Started GET "/rijeci_backend/solutions" for 46.36.161.64 at 2013-12-09 04:19:34 +0000
+I, [2013-12-09T04:19:34.919570 #1153]  INFO -- : Processing by SolutionsController#index as HTML
+I, [2013-12-09T04:19:34.934768 #1153]  INFO -- :   Rendered solutions/index.html.erb within layouts/application (2.3ms)
+I, [2013-12-09T04:19:34.936516 #1153]  INFO -- : Completed 200 OK in 17ms (Views: 4.7ms | ActiveRecord: 0.3ms)
+I, [2013-12-09T04:19:35.074453 #1164]  INFO -- : Started GET "/rijeci_backend/javascripts/application.js" for 46.36.161.64 at 2013-12-09 04:19:35 +0000
+F, [2013-12-09T04:19:35.088960 #1164] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  passenger (4.0.27) lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:140:in `accept_and_process_next_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:108:in `main_loop'
+  passenger (4.0.27) lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+
+
+I, [2013-12-09T04:28:36.999729 #1176]  INFO -- : Started GET "/rijeci_backend/solutions" for 46.36.161.64 at 2013-12-09 04:28:36 +0000
+I, [2013-12-09T04:28:37.009159 #1176]  INFO -- : Processing by SolutionsController#index as HTML
+I, [2013-12-09T04:28:37.023625 #1176]  INFO -- :   Rendered solutions/index.html.erb within layouts/application (2.1ms)
+I, [2013-12-09T04:28:37.025183 #1176]  INFO -- : Completed 200 OK in 16ms (Views: 4.1ms | ActiveRecord: 0.3ms)
+I, [2013-12-09T04:29:02.086722 #2002]  INFO -- : Started GET "/rijeci_backend/javascripts/application.js" for 46.36.161.64 at 2013-12-09 04:29:02 +0000
+F, [2013-12-09T04:29:02.099924 #2002] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  passenger (4.0.27) lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:140:in `accept_and_process_next_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:108:in `main_loop'
+  passenger (4.0.27) lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+
+
+I, [2013-12-09T04:30:01.243645 #2430]  INFO -- : Started GET "/rijeci_backend/solutions" for 46.36.161.64 at 2013-12-09 04:30:01 +0000
+I, [2013-12-09T04:30:01.260431 #2430]  INFO -- : Processing by SolutionsController#index as HTML
+I, [2013-12-09T04:30:01.276852 #2430]  INFO -- :   Rendered solutions/index.html.erb within layouts/application (2.4ms)
+I, [2013-12-09T04:30:01.279397 #2430]  INFO -- : Completed 200 OK in 19ms (Views: 6.3ms | ActiveRecord: 0.3ms)
+I, [2013-12-09T04:30:01.429507 #2442]  INFO -- : Started GET "/rijeci_backend/stylesheets/application.css" for 46.36.161.64 at 2013-12-09 04:30:01 +0000
+F, [2013-12-09T04:30:01.436981 #2442] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  passenger (4.0.27) lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:140:in `accept_and_process_next_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:108:in `main_loop'
+  passenger (4.0.27) lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+
+
+I, [2013-12-09T04:30:25.592380 #2479]  INFO -- : Started GET "/rijeci_backend/guesses" for 46.36.161.64 at 2013-12-09 04:30:25 +0000
+I, [2013-12-09T04:30:25.610229 #2479]  INFO -- : Processing by GuessesController#index as HTML
+I, [2013-12-09T04:30:25.632586 #2479]  INFO -- :   Rendered guesses/index.html.erb within layouts/application (9.5ms)
+I, [2013-12-09T04:30:25.634162 #2479]  INFO -- : Completed 200 OK in 24ms (Views: 11.4ms | ActiveRecord: 0.6ms)
+I, [2013-12-09T04:30:25.803248 #2521]  INFO -- : Started GET "/rijeci_backend/stylesheets/application.css" for 46.36.161.64 at 2013-12-09 04:30:25 +0000
+F, [2013-12-09T04:30:25.811984 #2521] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  passenger (4.0.27) lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:140:in `accept_and_process_next_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:108:in `main_loop'
+  passenger (4.0.27) lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+
+
+I, [2013-12-09T04:30:40.344016 #2529]  INFO -- : Started GET "/rijeci_backend/stylesheets/application.css" for 46.36.161.64 at 2013-12-09 04:30:40 +0000
+F, [2013-12-09T04:30:40.352467 #2529] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  passenger (4.0.27) lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:140:in `accept_and_process_next_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:108:in `main_loop'
+  passenger (4.0.27) lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+
+
+I, [2013-12-09T04:30:43.493402 #2553]  INFO -- : Started GET "/rijeci_backend/stylesheets/application.css" for 46.36.161.64 at 2013-12-09 04:30:43 +0000
+F, [2013-12-09T04:30:43.503835 #2553] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  passenger (4.0.27) lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:140:in `accept_and_process_next_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:108:in `main_loop'
+  passenger (4.0.27) lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+
+
+I, [2013-12-09T04:52:32.764929 #2566]  INFO -- : Started GET "/rijeci_backend/guesses" for 46.36.161.64 at 2013-12-09 04:52:32 +0000
+I, [2013-12-09T04:52:32.783607 #2566]  INFO -- : Processing by GuessesController#index as HTML
+I, [2013-12-09T04:52:32.804915 #2566]  INFO -- :   Rendered guesses/index.html.erb within layouts/application (8.8ms)
+I, [2013-12-09T04:52:32.806346 #2566]  INFO -- : Completed 200 OK in 23ms (Views: 10.5ms | ActiveRecord: 0.5ms)
+I, [2013-12-09T04:52:33.800141 #6238]  INFO -- : Started GET "/rijeci_backend/stylesheets/application.css" for 46.36.161.64 at 2013-12-09 04:52:33 +0000
+F, [2013-12-09T04:52:33.807588 #6238] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  passenger (4.0.27) lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:140:in `accept_and_process_next_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:108:in `main_loop'
+  passenger (4.0.27) lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+
+
+I, [2013-12-09T04:52:36.114711 #6246]  INFO -- : Started GET "/rijeci_backend/guesses" for 46.36.161.64 at 2013-12-09 04:52:36 +0000
+I, [2013-12-09T04:52:36.133407 #6246]  INFO -- : Processing by GuessesController#index as HTML
+I, [2013-12-09T04:52:36.155667 #6246]  INFO -- :   Rendered guesses/index.html.erb within layouts/application (9.4ms)
+I, [2013-12-09T04:52:36.157222 #6246]  INFO -- : Completed 200 OK in 24ms (Views: 11.3ms | ActiveRecord: 0.6ms)
+I, [2013-12-09T04:52:36.735238 #6259]  INFO -- : Started GET "/rijeci_backend/assets/oxygen400.woff" for 46.36.161.64 at 2013-12-09 04:52:36 +0000
+F, [2013-12-09T04:52:36.743887 #6259] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/oxygen400.woff"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:22:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  passenger (4.0.27) lib/phusion_passenger/rack/thread_handler_extension.rb:77:in `process_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:140:in `accept_and_process_next_request'
+  passenger (4.0.27) lib/phusion_passenger/request_handler/thread_handler.rb:108:in `main_loop'
+  passenger (4.0.27) lib/phusion_passenger/request_handler.rb:441:in `block (3 levels) in start_threads'
+
+
+I, [2013-12-09T04:52:50.089337 #6267]  INFO -- : Started GET "/rijeci_backend/solutions" for 46.36.161.64 at 2013-12-09 04:52:50 +0000
+I, [2013-12-09T04:52:50.104346 #6267]  INFO -- : Processing by SolutionsController#index as HTML
+I, [2013-12-09T04:52:50.119612 #6267]  INFO -- :   Rendered solutions/index.html.erb within layouts/application (2.4ms)
+I, [2013-12-09T04:52:50.121361 #6267]  INFO -- : Completed 200 OK in 17ms (Views: 4.7ms | ActiveRecord: 0.3ms)
