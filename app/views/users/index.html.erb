@@ -1,0 +1,19 @@
+<div class="puzhome">
+
+  <h1> Najnovije pobjede</h1>
+  <% i = 1 %>
+  <% @solutions.each do |solution| %>
+      <div><%=i%>. <%= solution.created_at_formatted %> <%= solution.username %>: <%= solution.number %> u vremenu <%=solution.time%></div>
+      <% i += 1%>
+  <% end %>
+
+  <h1> Najnoviji uspjesi</h1>
+
+  <% @guesses.each do |guess| %>
+      <div><%= guess.created_at_formatted %><h3><%= guess.username %>: <%= guess.definition %></h3> </div>
+  <% end %>
+
+
+</div>
+
+

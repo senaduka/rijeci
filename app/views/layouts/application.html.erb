@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/Organization">
+<head>
+  <meta charset="utf-8">
+  <title>Rijeci</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+
+<body>
+
+<div class="main">
+  <div class="topnav">
+    <h1 class="title"></h1>
+    <h1 class="titlenum"></h1>
+  </div>
+  <div class="content">
+    <%= yield %>
+  </div>
+  <div class="footer">
+    <a href="http://www.islambosna.ba"><img src="http://www.islambosna.ba/wp-content/uploads/2013/06/logotip_noba_520t.png" /></a>
+    Developed by Ahmed Islamovic.
+  </div>
+</div>
+<a class="forkme" href="https://github.com/senaduka/flip"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+</body>
+</html>

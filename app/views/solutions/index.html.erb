@@ -1,0 +1,11 @@
+<div class="puzhome">
+
+  <h1> Najnovije pobjede</h1>
+  <% i = 1 %>
+  <% @solutions.each do |solution| %>
+      <div><%=i%>. <%= solution.created_at_formatted %> <%= link_to( solution.username, users_url + "?username=" + solution.username) %>: <%= solution.number %> u vremenu <%=solution.time%></div>
+  <% i += 1%>
+  <% end %>
+
+
+</div>

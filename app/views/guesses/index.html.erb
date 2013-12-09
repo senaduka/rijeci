@@ -1,0 +1,9 @@
+<div class="puzhome">
+
+<h1> Najnoviji uspjesi</h1>
+
+<% @guesses.each do |guess| %>
+<div><%= guess.created_at_formatted %><h3> <%= link_to( guess.username, users_url + "?username=" + guess.username.to_s) %>: <%= guess.definition %></h3> </div>
+<% end %>
+
+</div>
