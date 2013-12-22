@@ -34,7 +34,7 @@ end
 
 gem 'rack-cors', :require => 'rack/cors'
 
-gem 'ridc', '~> 0.0.7'
+gem 'ridc', '~> 0.0.8'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
