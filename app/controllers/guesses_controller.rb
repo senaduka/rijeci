@@ -7,6 +7,7 @@ class GuessesController < ApplicationController
   # GET /guesses.json
   def index
     @guesses = Guess.all.order("created_at DESC")
+    Rails.logger.info("Showing guesses!")
   end
 
 
@@ -17,6 +18,7 @@ class GuessesController < ApplicationController
     @guess.username = params[:username]
     @guess.definition = params[:definition]
     Rails.logger.debug(params.inspect)
+
 
     respond_to do |format|
       if @guess.save
